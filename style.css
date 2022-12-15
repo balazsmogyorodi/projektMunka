@@ -1,0 +1,72 @@
+main {
+    
+
+
+}
+
+header {
+
+text-align: center;
+height: 150px;
+
+}
+
+.felso{
+
+    margin-left: -8px;
+    margin-right: -8px;
+
+}
+
+nav {
+    grid-area: n;
+    background-color: red;
+    border: 2px solid black ;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  
+.kezdo {
+    float: left;
+}
+
+
+  li {
+    float: right;
+    display: inline;
+  }
+  
+  li a {
+    display: block;
+    background-color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:white;
+   
+  }
+
+  li a:hover {
+
+    background-color: brown;
+    color: antiquewhite;
+  }
+
+
+
+
+  .also {
+    width: 80%;
+    margin: auto;
+    border: 1px solid beige;
+}
+
+footer {
+
+    text-align: center;
+}
