@@ -1,51 +1,79 @@
 /* Minden oldalnál */
 
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+color: slategray;
+}
+
+h2 {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.mediaCim {
+font-family:'Courier New', Courier, monospace ;
+
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+
+
+
+}
+
+
 main {
 
-  margin-bottom: -8px;
+  margin-bottom: -18px;
 }
 
 header {
 
-text-align: center;
-height: 90px;
-padding-top: 50px;
+  text-align: center;
+  height: 90px;
+  padding-top: 50px;
 
 }
 
-.felso{
+.felso {
 
-    margin-left: -8px;
-    margin-right: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
 
 }
 
 
 
 nav {
-    grid-area: n;
-    background-color: red;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  grid-area: n;
+  background-color: cadetblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
 .navigacio {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 
 .kezdo {
-float: left;
+  float: left;
 
 }
 
 li {
   float: right;
-  
+
+
 }
 
 li a {
@@ -54,12 +82,15 @@ li a {
   text-align: center;
   padding: 16px 45px;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 
 
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: brown;
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: blanchedalmond;
+  color: black;
 }
 
 
@@ -67,9 +98,9 @@ li a:hover, .dropdown:hover .dropbtn {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: red;
+  background-color: white;
   width: 137px;
-  
+
 
 }
 
@@ -86,7 +117,10 @@ li a:hover, .dropdown:hover .dropbtn {
   border-right: 2px solid black;
 }
 
-.dropdown-content a:hover {background-color: brown;}
+.dropdown-content a:hover {
+  background-color: blanchedalmond;
+
+}
 
 .dropdown:hover .dropdown-content {
   display: flex;
@@ -94,7 +128,7 @@ li a:hover, .dropdown:hover .dropbtn {
 
 .hobbiLogo {
 
-width: 40px;
+  width: 40px;
 
 }
 
@@ -102,38 +136,35 @@ width: 40px;
 
 
 
-  .also {
-    width: 80%;
-    margin: auto;
-    padding-bottom: 40px;
-    
+.also {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 40px;
+
 }
 
 footer {
-
-    text-align: center;
-    background-color: aqua;
-    padding-bottom: 12px;
-    height: 50px;
-    padding-top: 8px;
-    margin-left: -8px;
-    margin-right: -8px;
-    font-size: 22px;
-    margin-bottom: -10px;
-   
-   
+  text-align: center;
+  background-color: cadetblue;
+  padding-bottom: 22px;
+  height: 50px;
+  padding-top: 8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  font-size: 22px;
+ 
 }
 
 .kicsi {
   position: fixed;
-    bottom: 0;
-    width: 100%;
-  
+  bottom: 0;
+  width: 100%;
+
 
 }
 
 h4 {
-  margin-top: 14px;
+  margin-top: 15px;
 }
 
 
@@ -146,33 +177,35 @@ h4 {
 }
 
 .projektek {
-width: 100%;
+  width: 100%;
 }
 
 .csoport {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
 
 }
 
 .projekt {
-width: 70%;
+  width: 70%;
+  padding-bottom: 50px;
 
 
-border: 1px solid black;
+  border: 1px solid black;
 
 }
 
 .programCim {
-text-align: center;
+  text-align: center;
 }
 
 
 .programLogo {
-margin: auto;
-padding-left: 10%;
-margin-left: 50px;
-padding-top: 10px;
+  margin: auto;
+  padding-left: 10%;
+  margin-left: 50px;
+  padding-top: 10px;
   width: fit-content;
 
 }
@@ -182,38 +215,46 @@ padding-top: 10px;
 }
 
 .pythonProgram {
-width: 60%;
+  width: 60%;
 }
 
 .javaProgram {
-width: 95%;
-margin-left: -33px;
+  width: 95%;
+  margin-left: -33px;
 }
 
 
 
 .gomb {
-margin: auto;
-padding-bottom: 5px;
-padding-top: 20px;
-width: 20%;
+  margin: auto;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  width: 20%;
 }
 
 
 
 
 /*  elérhetőségi oldal  */
+.alsoEleres {
+
+  width: 100%;
+  
+}
+
+
 .eleres {
-width: 50%;
-margin: auto;
-padding: 10px;
-padding-top: 180px;
+  width: 40%;
+  margin: auto;
+  padding: 0px;
+  padding-top: 180px;
 }
 
 .informacio {
   border: 1px solid black;
   padding-bottom: 10px;
   padding-top: 15px;
+  width: 100%;
 }
 
 h1 {
@@ -222,10 +263,10 @@ h1 {
 }
 
 .fej {
-padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
-.logo1  {
+.logo1 {
   width: 80%;
 }
 
@@ -240,22 +281,22 @@ padding-bottom: 30px;
 }
 
 
-.eleroLogo{
-margin: auto;
-padding-left: 70%;
+.eleroLogo {
+  margin: auto;
+  padding-left: 70%;
 }
 
 
 
 .uzenet {
-list-style-type: none;
+  list-style-type: none;
 
 
 }
 
 .adat {
-display: grid;
-grid-template-columns: 1fr 3fr  ;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 
 }
 
@@ -264,16 +305,22 @@ grid-template-columns: 1fr 3fr  ;
 }
 
 
+.facebook {
+  color: black;
+  text-decoration: none;
+}
+
+.facebook:hover {
+  color: blue;
+}
+
 /* Hobbi  */
 
 
 .hobbiSzeret {
-
-width: 70%;
-margin: auto;
-padding: 0px;
-
-
+  width: 70%;
+  margin: auto;
+  padding: 0px;
 }
 
 
@@ -281,89 +328,521 @@ aside {
   margin: auto;
   padding: 0px;
   margin-top: -20px;
-
-width: 90%;
-padding-left: 70px;
-display: grid;
-grid-template-columns: 1fr 1fr;
-border: 1px solid black;
+  width: 90%;
+  padding-left: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 50px;
+  
 
 }
 
 
 .hobbi {
 
-display: grid;
-grid-template-columns: 1fr 1fr;
-border: 1px solid black;
-margin-top: 20px;
-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'cim ures'
+    'iras video';
+  border: 1px solid black;
+  margin-top: 20px;
+  width: 100%;
+  background-color: whitesmoke;
+
+}
+
+.hobbiCim {
+  grid-area: cim;
+  text-align: center;
+
+  margin-top: 35px;
+  margin-bottom: -15px;
+  padding-right: 5px;
+}
+
+.hobbiUres {
+  grid-area: ures;
+  height: 0px;
 }
 
 .hobbiKiiras {
-
+  grid-area: iras;
   padding: 10px;
-  padding-left: 60px;
-}
-
-
-.mediaCim {
-text-align: center;
 }
 
 
 
+
+
+.hobbiVideo {
+  margin: auto;
+  padding: 0px;
+  grid-area: video;
+  margin-top: -70px;
+}
 
 .video {
+  width: 350px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
-width: 400px;
-height: 250px;
+
+.lista {
+  margin: auto;
+  padding: 0px;
+  width: 50%;
+}
+
+
+
+
+ th, td {
+  border: 1px solid black;
+  width: 50%;
+}
+
+thead {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+
+}
+
+tbody {
+  font-size: 18px;
+  background-color: gray;
+  color: white;
+}
+
+
+
+
+/* index  */
+
+
+
+.tartalom {
+  display: grid;
+  grid-template-columns: 2fr 0.3fr 2fr;
+  padding-bottom: 70px;
+  margin-left: 60px;
+  margin-right: 60px;
+  
+
+}
+.ures {
+  width: 100%;
+}
+
+
+.cim {
+  margin-bottom: 45px;
+ 
+  
+}
+
+
+
+
+.szinhaz {
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+
+}
+
+
+.szinhaziKep {
+
+
+width: 95%;
+margin-top: 80px;
+
+}
+
+
+.tavoktatas {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+
+}
+
+.rolamKep {
+  margin: auto;
+  padding: 10px;
+width: 100%;
+
+}
+
+
+
+.kiiras {
+
+ width: 80%; 
+ padding-left: 20px;
+ 
+}
+
+.dokumentum {
+  text-align: center;
+ width: 100%;
+}
+
+.tavKep {
+  margin: auto;
+  padding: 0px;
+width: 200px ;
+
+}
+
+
+.rolamKep {
+  width: 100%;
+}
+
+
+.tavGomb {
+  margin: auto;
+  padding: 0px;
+  width: 15%;
+
+}
+
+.projektem {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: gray;
+}
+
+
+
+
+
+
+.erettsegi {
 margin: auto;
-padding: 10px;
-margin-top: 20px;
-margin-bottom: 20px;
+padding: 0px;
+width: 70%;
+text-align: center;
+
+padding-bottom: 50px;
+
+}
+
+.tablazat {
+margin: auto;
+padding: 0px;
+width: 300px;
+border-collapse: collapse;
+border: none;
+
+}
 
 
+
+
+
+
+
+.fej {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 24px;
+  background-color: white;
+  color: black;
+
+}
+
+.test {
+  font-size: 18px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+
+
+.visz, .fug {
+width: 5%;
+}
+
+.visz1 {
+border: none;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1300px ) {
+
+
+  .tablazat {
+
+    font-size: 20px;
+  }
+
+  .also {
+
+    width: 90%;
+  }
+
+
+.csoport {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
+
+ 
+}
+
+.projekt {
+
+padding-bottom: 50px;
+
+}
+
+
+
+
+
+  .hobbi {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    'ures'
+      'cim'
+      'video'
+       'iras';
+    border: 1px solid black;
+    width: 100%;
+    height: fit-content;
+
+
+
+}
+
+.hobbiCim {
+
+padding-bottom: 80px;
+color: black;
+
+}
+
+
+
+table {
+
+
+margin: auto;
+padding: 0px;
+width: 40%;
+}
+
+.eleres {
+
+  width: 55%;
+}
+
+
+
+.tartalom {
+
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 
 .lista {
 
+  margin: 0px;
+}
 
 
 }
 
+  
 
-.ajanlat {
-margin-left: 240px;
-margin-right: 800px;
+@media screen and (max-width: 850px ) {
+  
+  .tablazat {
+
+    font-size: 24px;
+  }
+
+
+
+
+  .also {
+
+    width: 100%;
+  }
+  
+.hobbi {
+
+width: 70%;
+
 }
 
-table, th, td {
-  margin: auto;
-  padding: 0px;
- border: 1px solid black;
-}
-thead {
-text-align: center;
-font-weight: bolder;
-font-size: 24px;
-}
+.visz {
 
-tbody {
 font-size: 18px;
 
-
-}
-
-td {
-width: 200px;
-
-
 }
 
 
+  td {
+
+    font-size: small;
+    
+
+  }
+
+
+  
+
+  .csoport {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+
+  
+   
+  }
+  
+  aside {
+
+    display: grid;
+    grid-template-columns: 1fr;
+  
+  }
 
 
 
+  .eleres {
 
+width: 70%;
+
+  }
+
+
+  .szinhaz {
+    display: grid;
+  grid-template-columns: 1fr;
+    
+  }
+
+
+  .tavoktatas {
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+
+
+    
+  }
+  @media screen and (max-width: 700px ) {
+
+    .kezdo {
+
+width: 100%;
+text-align: center;
+float: inline-end;
+
+    }
+
+   li {
+
+    float: inline-start;
+    margin: auto;
+    padding: 0px;
+    margin-left: -13px;
+    margin-right: -13px;
+   } 
+
+   header {
+margin-top: 50px;
+
+
+   }
+
+
+    .eleresMenu {
+
+      width: 20px;
+
+    }
+
+    .csoport {
+      display: grid;
+      grid-template-columns: 1fr ;
+      margin: auto;
+      padding: 0px;
+      width: 100%;
+      
+  
+
+     
+  
+    
+     
+    }
+
+    .projektek {
+
+      margin: auto;
+      padding: 0px;
+      width: 70%;
+    
+      
+    }
+    
+      
+    .eleres {
+
+      width: 100%;
+      
+        }
+
+
+        aside {
+
+         width:  100%;
+        }
+
+
+        .hobbi{
+
+          width: 70%;
+          padding-right: -60px;
+        }
+
+
+        .video {
+          width: 300px;
+        }
+
+    }
+
+
+    @media screen and (max-width: 500px ) {
+      .video {
+        width: 250px;
+      }
+    }
