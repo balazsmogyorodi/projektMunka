@@ -759,6 +759,25 @@ width: 70%;
   }
   @media screen and (max-width: 700px ) {
 
+
+   
+      aside {
+        margin: auto;
+        padding: 0px;
+        margin-top: -20px;
+        width: 50%;
+        padding-left: 0px;
+        
+        
+        padding-bottom: 50px;
+        
+      }
+
+      
+
+
+    
+
     .kezdo {
 
 width: 100%;
@@ -845,4 +864,8 @@ margin-top: 50px;
       .video {
         width: 250px;
       }
+
+
+
+      
     }
